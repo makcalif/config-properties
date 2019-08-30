@@ -1,7 +1,9 @@
 spring:
+  application:
+    name: auth-service
   data:
     mongodb:
-      host: mongo
+      host: my-release-mongodb
       port: 27017
       username: oauth-user
       password: password
@@ -12,5 +14,4 @@ spring:
 server:
   servlet:
     context-path: /uaa
-  port: 8781
-
+  port: 8011
